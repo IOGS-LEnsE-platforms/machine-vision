@@ -40,6 +40,21 @@ The GitHub repository of this project : `Machine Vision <https://github.com/IOGS
 	Main contributors<contents/main_contributors>
 	Students contributions<contents/other_contributors>
 
+Ressources
+**********
+
+Projects based on this platform require the following ressources :
+
+* `Camera Interfaces <https://iogs-lense-ressources.github.io/camera-gui/>`_ to integrate camera vision for image processing.
+
+Trainings
+*********
+
+Projects based on this platform require the following trainings :
+
+* **Nucleo board basics** to control the conveyor, the lighting system, the sorter system and to get data from presence sensors for exemple.
+* **Python GUI basics** to create a graphical user interface.
+* **Python communication** to transmit data to a microcontroller (that controls the hardware part of the platform : conveyor, lights, sorter, sensors...).
 
 About the LEnsE
 ***************
