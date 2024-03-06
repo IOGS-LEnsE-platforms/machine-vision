@@ -34,16 +34,29 @@ In this section, most advanced projects realized by students team during their e
 2022-2023
 =========
 
-Project 1
----------
-Adrien BACHMEYER
-Jade BARRET
-Alexis CORBILLET
-Maurice MANNONI
-Charley THOM
-Khalid LAHBABI
+Project 1 - Semester 6
+----------------------
+
+This project was realized by Jade BARRET, Adrien BACHMEYER, Alexis CORBILLET, Maurice MANNONI, Charley THOM and Khalid LAHBABI.
+
+* :download:`Report </_static/students/2022-2023_s6_g2_BACHMEYER_BARRET_CORBILLET_MANNONI_THOM_LAHBABI.pdf>`
+* :download:`Codes </_static/students/2022-2023_s6_g2_BACHMEYER_BARRET_CORBILLET_MANNONI_THOM_LAHBABI.zip>`
 
 
-Aboubakar Bayero
-Thomas Gabillet
-Julien Garnier
+Project 2 - Semester 6
+----------------------
+
+This project was realized by Thomas GABILLET, Julien GARNIER and Aboubakar BAYERO.
+
+* :download:`Report </_static/students/2022-2023_s6_g3_GABILLET_GARNIER_BAYERO.pdf>`
+* :download:`Codes </_static/students/2022-2023_s6_g3_GABILLET_GARNIER_BAYERO.zip>`
+* :download:`Video </_static/students/2022-2023_s6_g3_GABILLET_GARNIER_BAYERO.mp4>`
+
+
+Project 3 - Semester 8
+----------------------
+This project was realized by  Léa BRITO, Clara SONCIN, Lucile TILLOY and Simon MILCENT.
+
+* :download:`Report </_static/students/2022-2023_s8_g2_BRITO_SONCIN_TILLOY_MILCENT.pdf>`
+* :download:`Codes </_static/students/2022-2023_s8_g2_BRITO_SONCIN_TILLOY_MILCENT.zip>`
+
