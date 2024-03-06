@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Machine Vision Platform &mdash; Machine Vision Platform 0.2 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/lense-platforms.css?v=bcf694b5" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=10f1778b"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Overview of the platform" href="material_overview.html" />
+    <link rel="prev" title="Documentation of Machine Vision platform" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Machine Vision Platform
+              <img src="../_static/logo-platforms_git.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Machine Vision</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">     Machine Vision platform</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#machine-vision">Machine vision</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pedagogical-platform">Pedagogical platform</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pedagogical-objectives">Pedagogical objectives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#main-steps">Main steps</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#interface-de-base">Interface de base</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#partie-materielle">Partie matérielle</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#partie-logicielle-traitement-dimage">Partie logicielle / traitement d’image</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Materials</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="material_overview.html">     Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material_board.html">     Electronic board</a></li>
+<li class="toctree-l1"><a class="reference internal" href="material_testing.html">     Testing procedure</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contributors</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="main_contributors.html">     Main contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="other_contributors.html">     Students contributions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Machine Vision Platform</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Machine Vision Platform</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/contents/machine_vision.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="machine-vision-platform">
+<h1>Machine Vision Platform<a class="headerlink" href="#machine-vision-platform" title="Link to this heading"></a></h1>
+<section id="machine-vision">
+<h2>Machine vision<a class="headerlink" href="#machine-vision" title="Link to this heading"></a></h2>
+<p><strong>Machine vision</strong> encompasses all industrial and non-industrial applications in which a <strong>combination of hardware and software</strong> provide operational guidance to devices in the execution of their functions based on the capture and processing of images.</p>
+<figure class="align-default" id="id1">
+<img alt="../_images/pieces_machine_vision.png" src="../_images/pieces_machine_vision.png" />
+<figcaption>
+<p><span class="caption-text">2022 LEnsE.</span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>For example, machine vision is used to inspect parts in a production chain without stopping the manufacturing flow. If defaults are detected on a part (wrong color, bad shape…), a sorting system can eject bad elements.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>In manufacturing settings, machine vision systems required the following items:</p>
+<ol class="arabic simple">
+<li><p><strong>Lighting</strong> to illuminate the scene to make the object features visible.</p></li>
+<li><p><strong>Lens</strong> to captures the image and delivers it to a sensor.</p></li>
+<li><p><strong>Image sensor</strong> to collect a digital image of the object.</p></li>
+<li><p><strong>Computer</strong> (or digital signal processor) to process the images and extract the required information.</p></li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>You can find more information about machine vision, for example, on the Cognex website : <a class="reference external" href="https://www.cognex.com/en-au/what-is/machine-vision">https://www.cognex.com/en-au/what-is/machine-vision</a></p>
+</section>
+<section id="pedagogical-platform">
+<h2>Pedagogical platform<a class="headerlink" href="#pedagogical-platform" title="Link to this heading"></a></h2>
+<p>The platform was developped in order to sort pieces</p>
+<p>It is based on :</p>
+<ol class="arabic simple">
+<li><p><em>EffiLux</em> <strong>Effi-Ring</strong> industrial lights</p></li>
+<li><p>A <a class="reference external" href="https://www.dobot.nu/en/product/dobot-conveyor-belt-kit/">Dobot Magician **Conveyor**</a> (step-motor and conveyor belt)</p></li>
+<li><p>A <em>Basler</em> camera sensor</p></li>
+</ol>
+</section>
+<section id="pedagogical-objectives">
+<h2>Pedagogical objectives<a class="headerlink" href="#pedagogical-objectives" title="Link to this heading"></a></h2>
+<p>Niveau 1 : pilotage du convoyeur
+Niveau 2 : détection de forme et de couleur par caméra</p>
+<p>Dans le milieu industriel, le convoyage de pièces, la détection de certains défauts ou le tri par types d’objets sont très couramment utilisés. L’objectif de ce projet est de mettre en place un système de tri de pièces à l’aide d’un convoyeur et d’un système de traitement d’images.</p>
+<p>La mise en mouvement du convoyeur se fait par l’intermédiaire d’un moteur pas à pas. Le tri des pièces (par couleur ou forme) utilise une caméra associée à une Raspberry Pi permettant de faire le traitement des images et de transmettre le résultat à un système de tri.</p>
+</section>
+<section id="main-steps">
+<h2>Main steps<a class="headerlink" href="#main-steps" title="Link to this heading"></a></h2>
+<section id="interface-de-base">
+<h3>Interface de base<a class="headerlink" href="#interface-de-base" title="Link to this heading"></a></h3>
+<p>Des bibliothèques de base en Python sont disponibles pour le développement autour des caméras Basler. Ces exemples nécessitent opencv et les API pypylon (Basler). Ces exemples peuvent être inclus dans des interfaces graphiques en PyQt6.</p>
+<p><a class="reference external" href="https://github.com/IOGS-Digital-Methods/SupOpNumTools/tree/main/src/SupOpNumTools/camera">Exemples pour cameras IDS et Basler</a></p>
+<p>Des exemples (très complets) sont disponibles dans les projets suivants :  <a class="reference external" href="https://github.com/IOGS-LEnsE/labwork-GUI">IHM PyQt6 pour cameras IDS et Basler</a></p>
+<p>Une première version d’une interface de commande (obsolète) des caméras IDS USB2 est disponible.  <a class="reference external" href="https://github.com/IOGS-LEnsE-embedded/Python_SupOpLibraries/tree/main/CameraControl/IDS/LEnsE_version1">IHM PyQt5 pour camera IDS - obsolete</a></p>
+<p><em>Cette application nécessite PyQt5, OpenCV, l’API PyUeye et les drivers des caméras.</em></p>
+</section>
+<section id="partie-materielle">
+<h3>Partie matérielle<a class="headerlink" href="#partie-materielle" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Comprendre le fonctionnement d’un moteur pas à pas (indépendamment de ceux de la table) - <a class="reference external" href="https://www.youtube.com/watch?v=eyqwLiowZiU">Vidéo</a></p></li>
+<li><p>Etudier les signaux à appliquer sur le moteur pas à pas pour l’entrainer en rotation</p></li>
+<li><p>Etudier le driver <a class="reference external" href="https://fr.farnell.com/trinamic/tmc-silentstepstick/carte-driver-moteur-pas-a-pas/dp/2822153">**TMCSILENTSTEPSTICK**</a> (basé  sur un composant de type <strong>TMC2100</strong>) et l’associer au moteur pas à pas</p></li>
+<li><dl class="simple">
+<dt>Voir aussi les tutoriels associés aux cartes Nucléo parlant des étages de puissance</dt><dd><ul>
+<li><p>Régler l’intensité lumineuse d’une LED – partie puissance</p></li>
+<li><p>Faire varier la vitesse d’un moteur à courant continu – partie pont en H</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Réaliser un programme de pilotage simple pour entrainer en rotation le moteur</p></li>
+</ul>
+</section>
+<section id="partie-logicielle-traitement-dimage">
+<h3>Partie logicielle / traitement d’image<a class="headerlink" href="#partie-logicielle-traitement-dimage" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Prendre en main PyQt6 sous Python 3</p></li>
+<li><p>Tester les fonctionnalités de base de Open CV sous Python</p></li>
+</ul>
+<p>Autres étapes</p>
+<ul class="simple">
+<li><p>Mettre en place une communication RS232 entre la Raspberry Pi (via un programme en Python) et une carte Nucléo</p></li>
+<li><p>Décider des données à transmettre de l’un à l’autre et d’un protocole à mettre en oeuvre</p></li>
+<li><p>Tester le code de la carte Nucléo à l’aide de commande directement saisie dans un terminal</p></li>
+<li><dl class="simple">
+<dt>Voir aussi les tutoriels associés aux cartes Nucléo parlant des communications inter-systèmes</dt><dd><ul>
+<li><p>Echanger des données entre deux systèmes communicants (et les tutoriels précédents sur la communication RS232)</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<p>Une série de tutoriels sont en cours de rédaction à ce sujet :  <a class="reference external" href="http://lense.institutoptique.fr/mine/python-interfacage-et-affichage/">Tutoriel Python / PySerial et PyQt5/6 pour échange entre un PC et une Nucléo</a></p>
+<p>Ils sont basés sur les exemples suivants :  <a class="reference external" href="https://github.com/IOGS-LEnsE-embedded/Python_SupOpLibraries/tree/main/SerialComm">IHM PyQt5 pour échange entre un PC et une Nucléo</a></p>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../index.html" class="btn btn-neutral float-left" title="Documentation of Machine Vision platform" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="material_overview.html" class="btn btn-neutral float-right" title="Overview of the platform" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Julien Villemejane.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

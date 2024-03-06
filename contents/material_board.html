@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Machine Vision Electronic Control board &mdash; Machine Vision Platform 0.2 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=19f00094" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/lense-platforms.css?v=bcf694b5" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="../_static/jquery.js?v=5d32c60e"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="../_static/documentation_options.js?v=10f1778b"></script>
+        <script src="../_static/doctools.js?v=888ff710"></script>
+        <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Machine Vision Testing procedures" href="material_testing.html" />
+    <link rel="prev" title="Overview of the platform" href="material_overview.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            Machine Vision Platform
+              <img src="../_static/logo-platforms_git.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Machine Vision</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="machine_vision.html">     Machine Vision platform</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Materials</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="material_overview.html">     Overview</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">     Electronic board</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#microcontroller">Microcontroller</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#pinouts">Pinouts</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#step-motor-of-the-conveyor">Step-motor of the conveyor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#power-stage-and-step-motor-driver">Power stage and step motor driver</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#presence-sensors">Presence sensors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#communication">Communication</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#bluetooth-communication-via-rn41-42-module">BlueTooth communication via RN41/42 module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rf-communication-via-nrf24l01-module">RF communication via nRF24L01 module</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#lighting-system">Lighting system</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="material_testing.html">     Testing procedure</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contributors</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="main_contributors.html">     Main contributors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="other_contributors.html">     Students contributions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Machine Vision Platform</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Machine Vision Electronic Control board</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/contents/material_board.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="machine-vision-electronic-control-board">
+<h1>Machine Vision Electronic Control board<a class="headerlink" href="#machine-vision-electronic-control-board" title="Link to this heading"></a></h1>
+<p>This platform is associated to an <strong>electronic board</strong> for controlling : the translation of the conveyor, the activation of each sorting system, the activation of the lighting system.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This board can be used to control 2 different step-motors.</p>
+</div>
+<section id="microcontroller">
+<h2>Microcontroller<a class="headerlink" href="#microcontroller" title="Link to this heading"></a></h2>
+<section id="pinouts">
+<h3>Pinouts<a class="headerlink" href="#pinouts" title="Link to this heading"></a></h3>
+<figure class="align-center" id="id2">
+<img alt="Pinout of the microcontroller" src="../_images/microcontroller_board_pinout.png" />
+<figcaption>
+<p><span class="caption-text">Pinouts of the board</span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="step-motor-of-the-conveyor">
+<h2>Step-motor of the conveyor<a class="headerlink" href="#step-motor-of-the-conveyor" title="Link to this heading"></a></h2>
+<p>The step-motor must be powered by a <strong>4.6</strong> to <strong>4.8 V</strong> continuous source, connected to the … connector of the board.</p>
+</section>
+<section id="power-stage-and-step-motor-driver">
+<h2>Power stage and step motor driver<a class="headerlink" href="#power-stage-and-step-motor-driver" title="Link to this heading"></a></h2>
+<p>Two step-motors can be controlled independently  by two <strong>TMC2100</strong> (<a class="reference external" href="https://fr.farnell.com/trinamic/tmc-silentstepstick/carte-driver-moteur-pas-a-pas/dp/2822153">Kit TMC Silent Step Stick</a>) drivers.</p>
+<p>The first driver (<strong>Motor 1</strong>) can be configured by CFG1, CFG2 and CFG3 pins (see <a class="reference external" href="https://www.utmel.com/productdetail/trinamicmotioncontrolgmbh-tmc2100tat-5369295?utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=Utmel-octop-T~Z-ic-3.28(2229)&amp;utm_term=TMC2100-TA-T&amp;utm_content=T~Z-Integrated+Circuits-3.28">TMC2100 Documentation</a>).
+The second driver (<strong>Motor 2</strong>) is already set up as CFG3=open (<em>External reference voltage on pin AIN</em>), CFG2/1=0b01 (<em>HalfSteps</em>).</p>
+<table class="docutils align-default" id="id3">
+<caption><span class="caption-text">TMC2100 Pins / Motor 1</span><a class="headerlink" href="#id3" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 34.0%" />
+<col style="width: 33.0%" />
+<col style="width: 33.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>TMC2100</p></th>
+<th class="head"><p>Elec Board</p></th>
+<th class="head"><p>Nucleo Board</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>EN (In)</p></td>
+<td><p>MOT1_EN (Out)</p></td>
+<td><p>PB_13</p></td>
+</tr>
+<tr class="row-odd"><td><p>DIR (In)</p></td>
+<td><p>MOT1_DIR (Out)</p></td>
+<td><p>PB_3</p></td>
+</tr>
+<tr class="row-even"><td><p>STEP (In)</p></td>
+<td><p>MOT1_STEP (Out)</p></td>
+<td><p>PA_10</p></td>
+</tr>
+<tr class="row-odd"><td><p>CFG1 (In)</p></td>
+<td><p>MOT1_CFG1 (Out)</p></td>
+<td><p>PB_14</p></td>
+</tr>
+<tr class="row-even"><td><p>CFG2 (In)</p></td>
+<td><p>MOT1_CFG2 (Out)</p></td>
+<td><p>PB_15</p></td>
+</tr>
+<tr class="row-odd"><td><p>CFG3 (In)</p></td>
+<td><p>MOT1_CFG3 (Out)</p></td>
+<td><p>PB_1</p></td>
+</tr>
+<tr class="row-even"><td><p>VREF_AIN (Analog In)</p></td>
+<td><p>V_OUT_REG (Analog Out)</p></td>
+<td><p>PA_4 / A2</p></td>
+</tr>
+</tbody>
+</table>
+<p>To configure CFG3 as open pin, the J2 jumper must be removed (<em>External reference voltage on pin AIN</em>). To connect the CFG3 input pin of the TMC2100 driver to the Nucleo Board (MOT1_CFG3 pin), the J2 jumper must be in place.</p>
+<table class="docutils align-default" id="id4">
+<caption><span class="caption-text">TMC2100 Pins / Motor 2</span><a class="headerlink" href="#id4" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 34.0%" />
+<col style="width: 33.0%" />
+<col style="width: 33.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>TMC2100</p></th>
+<th class="head"><p>Elec Board</p></th>
+<th class="head"><p>Nucleo Board</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>EN (In)</p></td>
+<td><p>MOT2_EN (Out)</p></td>
+<td><p>PB_10</p></td>
+</tr>
+<tr class="row-odd"><td><p>DIR (In)</p></td>
+<td><p>MOT2_DIR (Out)</p></td>
+<td><p>PB_5</p></td>
+</tr>
+<tr class="row-even"><td><p>STEP (In)</p></td>
+<td><p>MOT2_STEP (Out)</p></td>
+<td><p>PB_4</p></td>
+</tr>
+<tr class="row-odd"><td><p>VREF_AIN (Analog In)</p></td>
+<td><p>V_OUT_REG (Analog Out)</p></td>
+<td><p>PA_4 / A2</p></td>
+</tr>
+</tbody>
+</table>
+<p>An external power supply must be connected to the J5 connector (VMOT). This nominal supply for the xxx step-motor is 4V, for a maximal current of 1A per phase.</p>
+<p>More details on the <a class="reference external" href="https://www.utmel.com/productdetail/trinamicmotioncontrolgmbh-tmc2100tat-5369295?utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=Utmel-octop-T~Z-ic-3.28(2229)&amp;utm_term=TMC2100-TA-T&amp;utm_content=T~Z-Integrated+Circuits-3.28">TMC2100 Documentation</a>.</p>
+<p>A library for TMC2100 and an example of use is available : <a class="reference external" href="https://github.com/IOGS-LEnsE/machine-vision/blob/main/progs/step_motor_tmc2100/step_motor_tmc2100.zip">TMC2100 Library and example</a>.</p>
+</section>
+<section id="presence-sensors">
+<h2>Presence sensors<a class="headerlink" href="#presence-sensors" title="Link to this heading"></a></h2>
+<p>Three digital inputs are dedicated to <strong>SEN0239</strong> infrared presence detectors, including supply of the sensors.</p>
+<table class="docutils align-default" id="id5">
+<caption><span class="caption-text">Presence Sensors Pins</span><a class="headerlink" href="#id5" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 34.0%" />
+<col style="width: 33.0%" />
+<col style="width: 33.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Sensor</p></th>
+<th class="head"><p>Elec Board</p></th>
+<th class="head"><p>Nucleo Board</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Sensor 1</p></td>
+<td><p>CAPT1 (In)</p></td>
+<td><p>PC_14</p></td>
+</tr>
+<tr class="row-odd"><td><p>Sensor 2</p></td>
+<td><p>CAPT2 (In)</p></td>
+<td><p>PC_15</p></td>
+</tr>
+<tr class="row-even"><td><p>Sensor 3</p></td>
+<td><p>CAPT3 (In)</p></td>
+<td><p>PH_0</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="communication">
+<h2>Communication<a class="headerlink" href="#communication" title="Link to this heading"></a></h2>
+<p>A <strong>RN41/42 XV</strong> module or a <strong>nrF24L01</strong> module could be implemented for radio-frequency communication.</p>
+<section id="bluetooth-communication-via-rn41-42-module">
+<h3>BlueTooth communication via RN41/42 module<a class="headerlink" href="#bluetooth-communication-via-rn41-42-module" title="Link to this heading"></a></h3>
+</section>
+<section id="rf-communication-via-nrf24l01-module">
+<h3>RF communication via nRF24L01 module<a class="headerlink" href="#rf-communication-via-nrf24l01-module" title="Link to this heading"></a></h3>
+<table class="docutils align-default" id="id6">
+<caption><span class="caption-text">nRF24L01 Pins</span><a class="headerlink" href="#id6" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 34.0%" />
+<col style="width: 33.0%" />
+<col style="width: 33.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>nRF24L01</p></th>
+<th class="head"><p>Elec Board</p></th>
+<th class="head"><p>Nucleo Board</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>SCK / In</p></td>
+<td><p>nRF24 / SCK (Out)</p></td>
+<td><p>PA_5 / D13 *</p></td>
+</tr>
+<tr class="row-odd"><td><p>MISO / Out</p></td>
+<td><p>nRF24 / MISO (In)</p></td>
+<td><p>PA_6 / D12</p></td>
+</tr>
+<tr class="row-even"><td><p>MOSI / In</p></td>
+<td><p>nRF24 / MOSI (Out)</p></td>
+<td><p>PA_7 / D11</p></td>
+</tr>
+<tr class="row-odd"><td><p>CSN / In</p></td>
+<td><p>nrF24 / CSN (Out)</p></td>
+<td><p>PC_7</p></td>
+</tr>
+<tr class="row-even"><td><p>IRQ / Out</p></td>
+<td><p>nrF24 / IRQ (In)</p></td>
+<td><p>PA_9</p></td>
+</tr>
+<tr class="row-odd"><td><p>CE / In</p></td>
+<td><p>nrF24 / CE (Out)</p></td>
+<td><p>PA_8</p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>LED1 (LD2 on board led) could not be used if nrF24 is connected</p></li>
+</ul>
+</section>
+</section>
+<section id="lighting-system">
+<h2>Lighting system<a class="headerlink" href="#lighting-system" title="Link to this heading"></a></h2>
+<p>The lighting system is an EFFI-Ring from the Effilux company, type RGB (ref ??). Red, Blue and Green lights can be controlled independently.</p>
+<p>IMAGE OF THE LIGHT</p>
+<p>A M12-5pins connector is used to control and power the ring. The power supply is 24V. The pins controlling the 3 independent sources are connected to a MOSFET transistor.</p>
+<table class="docutils align-default" id="id7">
+<caption><span class="caption-text">Light Control Pins</span><a class="headerlink" href="#id7" title="Link to this table"></a></caption>
+<colgroup>
+<col style="width: 34.0%" />
+<col style="width: 33.0%" />
+<col style="width: 33.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Light Source</p></th>
+<th class="head"><p>Elec Board</p></th>
+<th class="head"><p>Nucleo Board</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Red</p></td>
+<td><p>ECLAIR 1</p></td>
+<td><p>PC_3</p></td>
+</tr>
+<tr class="row-odd"><td><p>Green</p></td>
+<td><p>ECLAIR 2</p></td>
+<td><p>PC_2</p></td>
+</tr>
+<tr class="row-even"><td><p>Blue</p></td>
+<td><p>ECLAIR 3</p></td>
+<td><p>PH_1</p></td>
+</tr>
+</tbody>
+</table>
+<p>Lights are activated on a <strong>low-level state</strong> of the previous outputs (output = 0).</p>
+<p>An external power supply must be connected to the J19 connector (V_ECLAIRAGE). The nominal supply for the EFFi-Ring source is 24V.</p>
+<p>More details on the <a class="reference external" href="https://www.effilux.com/fr/produits/annulaire/effi-ring">EFFI-Ring Documentation</a>.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="material_overview.html" class="btn btn-neutral float-left" title="Overview of the platform" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="material_testing.html" class="btn btn-neutral float-right" title="Machine Vision Testing procedures" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Julien Villemejane.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
