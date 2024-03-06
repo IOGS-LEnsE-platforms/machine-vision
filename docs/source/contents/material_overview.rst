@@ -1,5 +1,5 @@
 Overview of the platform
-========================
+########################
 
 The **LEnsE** team developped a platform to reproduce a part of an **industrial system of machine vision**.
 
@@ -10,22 +10,22 @@ PICTURE OF THE SYSTEM
 
 
 Materials
----------
+*********
 
 Conveyor and sorting system
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+===========================
 
 This platform is mainly based on a **Dobot conveyor** that permits to transport small pieces 
 
 Step Motor
-""""""""""
+----------
 
 A **step-motor** is used to move the conveyor. It is driven by a **TMC SILENTSTEPSTICK** from *Analog Devices*.
 
 The step-motor must be powered up by a 4.6 to 4.8 V power supply.
 
 Sensors
-"""""""
+-------
 
 Three **SEN0239** infrared presence detectors could be implemented on the board.
 
@@ -35,7 +35,7 @@ A digital output is at a **high level** when an object is detected close to the 
 
 
 Sorter System
-~~~~~~~~~~~~~
+=============
 
 The conveyor is equiped with three home-made sorter systems, based on a servomotor.
 
