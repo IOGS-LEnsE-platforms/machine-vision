@@ -1,8 +1,8 @@
 Machine Vision Platform
-=======================
+#######################
 
 Machine vision
---------------
+**************
 
 **Machine vision** encompasses all industrial and non-industrial applications in which a **combination of hardware and software** provide operational guidance to devices in the execution of their functions based on the capture and processing of images.
 
@@ -27,7 +27,7 @@ In manufacturing settings, machine vision systems required the following items:
 You can find more information about machine vision, for example, on the Cognex website : https://www.cognex.com/en-au/what-is/machine-vision
 
 Pedagogical platform
---------------------
+********************
 
 The platform was developped in order to sort pieces 
 
@@ -41,7 +41,7 @@ It is based on :
 
 
 Pedagogical objectives
-----------------------
+**********************
 
 Niveau 1 : pilotage du convoyeur
 Niveau 2 : détection de forme et de couleur par caméra
@@ -54,10 +54,10 @@ La mise en mouvement du convoyeur se fait par l’intermédiaire d’un moteur p
 
 
 Main steps
-----------
+**********
 
 Interface de base
-~~~~~~~~~~~~~~~~~
+=================
 
 Des bibliothèques de base en Python sont disponibles pour le développement autour des caméras Basler. Ces exemples nécessitent opencv et les API pypylon (Basler). Ces exemples peuvent être inclus dans des interfaces graphiques en PyQt6.
 
@@ -71,7 +71,7 @@ Une première version d’une interface de commande (obsolète) des caméras IDS
 *Cette application nécessite PyQt5, OpenCV, l’API PyUeye et les drivers des caméras.*
 
 Partie matérielle
-~~~~~~~~~~~~~~~~~
+=================
 
 * Comprendre le fonctionnement d'un moteur pas à pas (indépendamment de ceux de la table) - `Vidéo <https://www.youtube.com/watch?v=eyqwLiowZiU>`_
 * Etudier les signaux à appliquer sur le moteur pas à pas pour l'entrainer en rotation
@@ -82,7 +82,7 @@ Partie matérielle
 * Réaliser un programme de pilotage simple pour entrainer en rotation le moteur
 
 Partie logicielle / traitement d’image
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+======================================
 
 * Prendre en main PyQt6 sous Python 3
 * Tester les fonctionnalités de base de Open CV sous Python

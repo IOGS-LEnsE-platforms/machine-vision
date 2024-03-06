@@ -1,5 +1,5 @@
 Machine Vision Electronic Control board
-=======================================
+#######################################
 
 
 This platform is associated to an **electronic board** for controlling : the translation of the conveyor, the activation of each sorting system, the activation of the lighting system.
@@ -8,10 +8,10 @@ This platform is associated to an **electronic board** for controlling : the tra
 	This board can be used to control 2 different step-motors.
 
 Microcontroller
----------------
+***************
 
 Pinouts
-~~~~~~~
+=======
 
 .. figure:: ../_static/microcontroller_board_pinout.png
    :alt: Pinout of the microcontroller
@@ -20,7 +20,7 @@ Pinouts
    Pinouts of the board
    
 Step-motor of the conveyor
---------------------------
+**************************
 
 The step-motor must be powered by a **4.6** to **4.8 V** continuous source, connected to the ... connector of the board.
 
@@ -28,7 +28,7 @@ The step-motor must be powered by a **4.6** to **4.8 V** continuous source, conn
    
 
 Power stage and step motor driver
----------------------------------
+*********************************
 
 Two step-motors can be controlled independently  by two **TMC2100** (`Kit TMC Silent Step Stick <https://fr.farnell.com/trinamic/tmc-silentstepstick/carte-driver-moteur-pas-a-pas/dp/2822153>`_) drivers.
 
@@ -95,7 +95,7 @@ A library for TMC2100 and an example of use is available : `TMC2100 Library and 
 
 
 Presence sensors
-----------------
+****************
 
 Three digital inputs are dedicated to **SEN0239** infrared presence detectors, including supply of the sensors.
 
@@ -118,15 +118,15 @@ Three digital inputs are dedicated to **SEN0239** infrared presence detectors, i
 
 
 Communication
--------------
+*************
 
 A **RN41/42 XV** module or a **nrF24L01** module could be implemented for radio-frequency communication. 
 
 BlueTooth communication via RN41/42 module
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+==========================================
 
 RF communication via nRF24L01 module
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+====================================
 
 .. list-table:: nRF24L01 Pins
    :widths: 34 33 33
@@ -159,7 +159,7 @@ RF communication via nRF24L01 module
 
 
 Lighting system
----------------
+***************
 
 The lighting system is an EFFI-Ring from the Effilux company, type RGB (ref ??). Red, Blue and Green lights can be controlled independently.
 

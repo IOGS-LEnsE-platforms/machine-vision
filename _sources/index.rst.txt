@@ -2,8 +2,8 @@
    sphinx-quickstart on Sat Jan 13.
    You can adapt this file completely to your liking, but it should at least contain the root `toctree` directive.
 
-Documentation of Machine Vision platform
-========================================
+Machine Vision platform's documentation
+#######################################
 
 .. caution::
    This documentation website is still in development
@@ -42,6 +42,6 @@ The GitHub repository of this project : `Machine Vision <https://github.com/IOGS
 
 
 About the LEnsE
----------------
+***************
 
 The **Experimental Teaching Laboratory** (*LEnsE*, for *Laboratoire d’ENSeignement Expérimental*) is a major structure of the *Institut d'Optique* engineering school. It offers remarkably strong training that contributes 25% of the total curriculum. It is an impressive structure where students have access to a large diversity of material and human resources to be able to gain the skills to become excellent experimenters recognized in their field.
