@@ -22,14 +22,18 @@ Students Projects year by year
 ******************************
 
 In this section, most advanced projects realized by students team during their engineer training are presented. You have access to their technical report and some of their codes.
-
-.. warning::
-
-	Reports and codes were reviewed but not corrected by their authors. Read these reports and use these codes with **indulgence** and **kindness**.
 	
 .. warning::
 
-	The of these contents is free and unrestricted in compliance with current legislation, particularly ensuring the maintenance of the source attribution as specified below: **'Source lense.institutoptique.fr / LEnsE / IOGS / France'**. You also have to **mention the names of the students** working on this project.
+	The of these contents is free and unrestricted in compliance with current legislation, particularly ensuring the maintenance of the source attribution as specified below: 
+	
+	**'Source lense.institutoptique.fr / LEnsE / IOGS / France'**. 
+	
+	You also have to **mention the names of the students** working on this project.
+
+.. note::
+
+	Reports and codes were reviewed but not corrected by their authors. Read these reports and use these codes with **indulgence** and **kindness**.
 
 2022-2023
 =========
