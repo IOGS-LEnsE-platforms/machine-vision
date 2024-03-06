@@ -5,7 +5,9 @@ The **LEnsE** team developped a platform to reproduce a part of an **industrial 
 
 Machine Vision platform is a combination of a **conveyor** driven in movement by a **step motor**, a sorting system, a **CMOS industrial sensor** and a **lighting system**.
 
-PICTURE OF THE SYSTEM
+.. figure:: ../_static/machine_vision_scheme_garnier.png
+  
+  2023 - Drawing by Julien GARNIER - Student.
 
 
 
