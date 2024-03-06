@@ -1,5 +1,5 @@
-Light Source Radiant Intensity Measuring Platform
-#################################################
+Machine Vision Platform Development / Students Projects
+#######################################################
 
 .. caution::
    This documentation section is still in development

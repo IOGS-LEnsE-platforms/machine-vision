@@ -1,5 +1,5 @@
-Labworks Platforms Development / Main Contributors
-##################################################
+Machine Vision Platform Development / Main Contributors
+#######################################################
 
 
 Initial Idea
