@@ -10,7 +10,7 @@ Documentation of Machine Vision platform
 
 **Machine Vision** GitHub repository contains documentations of the pedagogic technical platform developed for Machine Vision labworks and projects of students.
 
-The GitHub repository of this project : `Machine Vision <https://github.com/IOGS-LEnsE/machine-vision>`_
+The GitHub repository of this project : `Machine Vision <https://github.com/IOGS-LEnsE-platforms/machine-vision>`_
 
 |
 
