@@ -1,6 +1,7 @@
 :root {
   --iogs-orange: rgb(255, 150, 10);
   --iogs-violet: rgb(10, 50, 80);
+  --iogs-violet-light: rgba(10, 50, 80, 0.2);
   --platforms: rgb(11, 43, 82);	
   --platforms-light: rgba(11, 43, 82, 0.7);	
   --ressources: rgb(217, 128, 78);
@@ -26,7 +27,7 @@
 
 .wy-side-nav-search{
 	color: white;			
-	background-color: var(--background);
+	background-color: var(--platforms);
 }
 
 .wy-side-nav-search>a img.logo{
