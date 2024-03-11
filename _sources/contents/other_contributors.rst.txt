@@ -22,7 +22,7 @@ In this section, most advanced projects realized by students team during their e
 	
 .. warning::
 
-	The of these contents is free and unrestricted in compliance with current legislation, particularly ensuring the maintenance of the source attribution as specified below: 
+	The use of these contents is free and unrestricted in compliance with current legislation, particularly ensuring the maintenance of the source attribution as specified below: 
 	
 	**'Source lense.institutoptique.fr / LEnsE / IOGS / France'**. 
 	
