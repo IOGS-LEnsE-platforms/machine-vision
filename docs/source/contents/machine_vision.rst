@@ -24,7 +24,10 @@ In manufacturing settings, machine vision systems required the following items:
 
 |
 
-You can find more information about machine vision, for example, on the Cognex website : https://www.cognex.com/en-au/what-is/machine-vision
+You can find more information about machine vision:
+
+* on the Cognex website : https://www.cognex.com/en-au/what-is/machine-vision
+* on :abbr:`IQS (Industrial Quick Search)` website : https://www.iqsdirectory.com/articles/machine-vision-system.html
 
 Pedagogical platform
 ********************
