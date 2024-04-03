@@ -108,14 +108,17 @@ Three digital inputs are dedicated to **SEN0239** infrared presence detectors, i
      - Nucleo Board
    * - Sensor 1
      - CAPT1 (In)
-     - PC_14
+     - PC_14 *
    * - Sensor 2
      - CAPT2 (In)
-     - PC_15
+     - PC_15 *
    * - Sensor 3
      - CAPT3 (In)
      - PH_0
 
+.. warning::
+	
+	* Don't use PC_14 and PC_15 !
 
 Communication
 *************
