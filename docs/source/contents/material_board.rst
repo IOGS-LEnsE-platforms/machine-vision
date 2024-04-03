@@ -22,9 +22,7 @@ Pinouts
 Step-motor of the conveyor
 **************************
 
-The step-motor must be powered by a **4.6** to **4.8 V** continuous source, connected to the ... connector of the board.
-
-
+The step-motor must be powered by a **4.6** to **4.8 V** continuous source, connected to the **J5** connector of the board.
    
 
 Power stage and step motor driver
@@ -118,7 +116,7 @@ Three digital inputs are dedicated to **SEN0239** infrared presence detectors, i
 
 .. warning::
 	
-	* Don't use PC_14 and PC_15 !
+	* Don't use PC_14 and PC_15 ! Not connected on the Nucleo board CN7 connector. Bad design :/
 
 Communication
 *************
