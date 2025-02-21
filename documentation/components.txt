@@ -1,0 +1,18 @@
+Machine Vision - Platform
+=========================
+
+
+Ring connector : RS - 877-1113   //  M12 5 contacts
+Ring cable : RS - 877-1101	// 5 conducteurs , M12 Femelle vers M12 Mâle, 5m
+
+Effi-Ring : M12 connector / 5 connectors
+	- brown : 24V
+	- white : Blue LED
+	- blue : GND
+	- black : Red LED
+	- gray : Green LED
+
+On each interrupt : 
+	1 -> 24 V
+	2 -> to LED  - R = 8.2k to (3)
+	3 -> GND
