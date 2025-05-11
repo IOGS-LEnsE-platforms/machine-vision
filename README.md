@@ -11,5 +11,3 @@ The **LEnsE**, ***Laboratoire d'Enseignement Expérimental***, [Website](http://
 
 
 
-
-
